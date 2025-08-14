@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>Welcome to DailyFixer</h1>
-<p>This is the entry point of the application.</p>
+<p>This is the entry point to daily.</p>
 <script src="assets/js/script.js"></script>
 </body>
 </html>
