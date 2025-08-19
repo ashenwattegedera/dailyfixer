@@ -11,6 +11,7 @@
     <title>Login Page</title>
 </head>
 <body>
-    Hello World
+    This is the User Login Page.
+    <a href="login.html">Login</a>
 </body>
 </html>
