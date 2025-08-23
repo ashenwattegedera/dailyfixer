@@ -62,7 +62,7 @@
         </div>
 
         <!-- Upload Guide Button -->
-        <a href="volunteer-registration.jsp" class="upload-guide-btn">+ Upload Guide</a>
+        <a href="../volunteer/volunteerlogin.jsp" class="upload-guide-btn">+ Upload Guide</a>
     </div>
 
     <!-- Home Appliances Guides -->
