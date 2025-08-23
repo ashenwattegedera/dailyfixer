@@ -8,7 +8,7 @@
 <header>
     <!-- Main Navbar -->
     <nav class="navbar">
-        <div class="logo">Daily Fixer</div>
+        <div class="logo">Daily Fixer/Repair Guides</div>
         <ul class="nav-links">
             <li><a href="../index.jsp">Home</a></li>
             <li><a href="../index.jsp#about">About</a></li>
@@ -62,7 +62,7 @@
         </div>
 
         <!-- Upload Guide Button -->
-        <a href="volunteer-registration.jsp" class="upload-guide-btn">+ Upload Guide</a>
+        <a href="volunteer/yesign-up.jsp" class="upload-guide-btn">+ Upload Guide</a>
     </div>
 
     <!-- Home Appliances Guides -->
