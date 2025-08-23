@@ -21,8 +21,8 @@
             <li><a href="../index.jsp#about">About</a></li>
             <li><a href="../index.jsp#services">Services</a></li>
             <li><a href="shared/login.jsp">Log in</a></li>
-        </ul>>
-    </nav>>
+        </ul>
+    </nav>
 
     <!--Sub Nav-->
     <div clas="sub-nav">
