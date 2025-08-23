@@ -1,7 +1,9 @@
-<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
-    <title>DailyFixer - Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Fixer</title>
+    <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -18,12 +20,12 @@
         </ul>
     </nav>
 
-    <!-- Rounded Sub-nav -->
-    <div class="sub-nav">
-        <a href="#">Diagnose Now</a>
+    <!-- Rounded Subnav -->
+    <div class="subnav">
+        <a href="diagnostic.html">Diagnose Now</a>
         <a href="#">Find a Technician</a>
-        <a href="#">View Repair Guides</a>
-        <a href="#">Stores</a>
+        <a href="pages/guides/guidehome.jsp">View Repair Guides</a>
+        <a href="pages/store/store.jsp">Stores</a>
     </div>
 </header>
 <section class="hero">
@@ -31,12 +33,10 @@
         <h1>For all the little jobs that matter big</h1>
         <p>Search for common issues or browse our repair guides</p>
         <div class="search-box">
-            <label>
-                <input type="text" placeholder="search for a repair">
-                <button>
-                    <img src="assets/images/search.png" alt="Search">
-                </button>
-            </label>
+            <input type="text" placeholder="search for a repair">
+            <button>
+                <img src="assets/images/pictures/search.png" alt="Search">
+            </button>
         </div>
     </div>
 </section>
@@ -45,28 +45,28 @@
     <section class="guides">
         <h2>Featured Guides</h2>
         <div class="guide-cards">
-            <a href="#" class="card">
-                <img src="assets/images/faucet.jpg" alt="">
+            <a href="faucet.html" class="card">
+                <img src="assets/images/pictures/faucet.jpg" alt="">
                 <p><strong>How to Fix a Leaky Faucet</strong><br>Step-by-step guide to fixing a leaky faucet.</p>
             </a>
 
-            <a href="#" class="card">
-                <img src="assets/images/engine.jpg" alt="">
+            <a href="engine.html" class="card">
+                <img src="assets/images/pictures/engine.jpg" alt="">
                 <p><strong>Engine Maintenance Basics</strong><br>Learn simple engine maintenance tasks.</p>
             </a>
 
-            <a href="#" class="card">
-                <img src="assets/images/electrical.jpg" alt="">
+            <a href="electrical.html" class="card">
+                <img src="assets/images/pictures/electrical.jpg" alt="">
                 <p><strong>Safe home electrical repairs</strong><br>Keep your family safe performing electrical repairs.</p>
             </a>
 
-            <a href="#" class="card">
-                <img src="assets/images/bicycle.jpg" alt="">
+            <a href="bicycle.html" class="card">
+                <img src="assets/images/pictures/bicycle.jpg" alt="">
                 <p><strong>Bike Tire Replacement Guide</strong><br>Easy step-by-step instructions for replacing bike tires.</p>
             </a>
         </div>
     </section>
-
+</div>
     <!-- About Us -->
     <section class="about" id="about">
         <h2>About Us</h2>
@@ -80,15 +80,15 @@
                 <p>Join us in making repairs stress-free, accessible, and empowering. With Daily Fixer, solving everyday problems is not just possible—it’s easier than ever before.</p>
             </div>
             <div class="about-images">
-                <img src="assets/images/car.jpg" alt="">
-                <img src="assets/images/painter.jpg" alt="">
+                <img src="assets/images/pictures/car.jpg" alt="">
+                <img src="assets/images/pictures/painter.jpg" alt="">
             </div>
         </div>
     </section>
 
     <section class="services" id="services">
         <div class="services-img">
-            <img src="assets/images/Handyman.png" alt="Technician Smiling" />
+            <img src="assets/images/pictures/Handyman.png" alt="Technician Smiling" />
         </div>
         <div class="services-list">
             <h2>Our Services</h2>
@@ -104,9 +104,7 @@
     <section class="cta">
         <h2>Not sure where to start?</h2>
         <p>Try our smart diagnostics tool to pinpoint the issue and find the right solution.</p>
-        <a href="#" class="cta-btn">Get Started</a>
+        <a href="sign-Up.html" class="cta-btn">Get Started</a>
     </section>
-    <script src="assets/js/script.js"></script>
-</div>
 </body>
 </html>
