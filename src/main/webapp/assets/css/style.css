@@ -396,3 +396,111 @@ html {
     text-decoration: underline;
 }
 
+
+/* ================= Repair Guides Page ================= */
+
+/* Page Hero for Repair Guides */
+.repair-hero {
+    text-align: center;
+    padding: 80px 20px 40px 20px;
+    background: linear-gradient(to right, #7c8cff, #cfe0ff);
+    border-radius: 12px;
+    color: white;
+    margin-top: 120px; /* aligns with fixed header */
+}
+
+.repair-hero h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+}
+
+.repair-hero p {
+    font-size: 1.2rem;
+    color: rgba(255,255,255,0.9);
+}
+
+/* Category Selector */
+.category-select {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.category-select label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-right: 8px;
+}
+
+.category-select select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #a6c0ff;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* Guides Section */
+.guides h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    margin: 3rem 0 1rem 0;
+    text-align: center;
+}
+
+.guide-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+}
+
+.card {
+    display: block;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.12);
+    color: inherit;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    object-fit: cover;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.4;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    .services-list button {
+        width: 100%;
+    }
+    .category-select {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
