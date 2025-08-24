@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Fixer</title>
     <!-- Link to external stylesheet -->
-    <link rel="stylesheet" href="../assets/css/indextest.css">
+    <link rel="stylesheet" href="assets/css/indextest.css">
 </head>
 <body>
 <header>
@@ -16,7 +16,7 @@
             <li><a href="#" class="active">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="shared/login.jsp">Log in</a></li>
+            <li><a href="pages/shared/login.jsp">Log in</a></li>
         </ul>
     </nav>
 
@@ -24,8 +24,8 @@
     <div class="subnav">
         <a href="#">Diagnose Now</a>
         <a href="#">Find a Technician</a>
-        <a href="guides/guidehome.jsp">View Repair Guides</a>
-        <a href="store/store.jsp">Stores</a>
+        <a href="pages/guides/guidehome.jsp">View Repair Guides</a>
+        <a href="pages/store/store.jsp">Stores</a>
     </div>
 </header>
 <section class="hero">
@@ -33,7 +33,7 @@
         <label for="search" class="sr-only">Search for an issue</label>
         <input type="text" id="search" placeholder="Search for an issue">
         <button>
-            <img src="../assets/images/pictures/search.png" alt="Search">
+            <img src="assets/images/pictures/search.png" alt="Search">
         </button>
     </div>
 
@@ -44,22 +44,22 @@
         <h2>Featured Guides</h2>
         <div class="guide-cards">
             <a href="faucet.html" class="card">
-                <img src="../assets/images/pictures/faucet.jpg" alt="">
+                <img src="assets/images/pictures/faucet.jpg" alt="">
                 <p><strong>How to Fix a Leaky Faucet</strong><br>Step-by-step guide to fixing a leaky faucet.</p>
             </a>
 
             <a href="engine.html" class="card">
-                <img src="../assets/images/pictures/engine.jpg" alt="">
+                <img src="assets/images/pictures/engine.jpg" alt="">
                 <p><strong>Engine Maintenance Basics</strong><br>Learn simple engine maintenance tasks.</p>
             </a>
 
             <a href="electrical.html" class="card">
-                <img src="../assets/images/pictures/electrical.jpg" alt="">
+                <img src="assets/images/pictures/electrical.jpg" alt="">
                 <p><strong>Safe home electrical repairs</strong><br>Keep your family safe performing electrical repairs.</p>
             </a>
 
             <a href="bicycle.html" class="card">
-                <img src="../assets/images/pictures/bicycle.jpg" alt="">
+                <img src="assets/images/pictures/bicycle.jpg" alt="">
                 <p><strong>Bike Tire Replacement Guide</strong><br>Easy step-by-step instructions for replacing bike tires.</p>
             </a>
         </div>
@@ -78,15 +78,15 @@
                 <p>Join us in making repairs stress-free, accessible, and empowering. With Daily Fixer, solving everyday problems is not just possible—it’s easier than ever before.</p>
             </div>
             <div class="about-images">
-                <img src="../assets/images/pictures/car.jpg" alt="">
-                <img src="../assets/images/pictures/painter.jpg" alt="">
+                <img src="assets/images/pictures/car.jpg" alt="">
+                <img src="assets/images/pictures/painter.jpg" alt="">
             </div>
         </div>
     </section>
 
     <section class="services" id="services">
         <div class="services-img">
-            <img src="../assets/images/pictures/Handyman.png" alt="Technician Smiling" />
+            <img src="assets/images/pictures/Handyman.png" alt="Technician Smiling" />
         </div>
         <div class="services-list">
             <h2>Our Services</h2>

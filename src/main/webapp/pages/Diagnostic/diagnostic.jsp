@@ -13,7 +13,7 @@
     <nav class="navbar">
         <div class="logo">Daily Fixer</div>
         <ul class="nav-links">
-            <li><a href="../index.jsp">Home</a></li>
+            <li><a href="../../index.jsp">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Log in</a></li>

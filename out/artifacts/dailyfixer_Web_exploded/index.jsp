@@ -22,23 +22,21 @@
 
     <!-- Rounded Subnav -->
     <div class="subnav">
-        <a href="diagnostic.html">Diagnose Now</a>
+        <a href="#">Diagnose Now</a>
         <a href="#">Find a Technician</a>
         <a href="pages/guides/guidehome.jsp">View Repair Guides</a>
         <a href="pages/store/store.jsp">Stores</a>
     </div>
 </header>
 <section class="hero">
-    <div class="hero-content">
-        <h1>For all the little jobs that matter big</h1>
-        <p>Search for common issues or browse our repair guides</p>
-        <div class="search-box">
-            <input type="text" placeholder="search for a repair">
-            <button>
-                <img src="assets/images/pictures/search.png" alt="Search">
-            </button>
-        </div>
+    <div class="search-box">
+        <label for="search" class="sr-only">Search for an issue</label>
+        <input type="text" id="search" placeholder="Search for an issue">
+        <button>
+            <img src="assets/images/pictures/search.png" alt="Search">
+        </button>
     </div>
+
 </section>
 
 <div class="container">

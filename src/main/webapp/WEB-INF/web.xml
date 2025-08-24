@@ -7,15 +7,10 @@
 
     <display-name>DailyFixer</display-name>
 
-    <!-- Example servlet mapping -->
-    <servlet>
-        <servlet-name>ExampleServlet</servlet-name>
-        <servlet-class>com.dailyfixer.controllers.ExampleServlet</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>ExampleServlet</servlet-name>
-        <url-pattern>/example</url-pattern>
-    </servlet-mapping>
+    <!-- Welcome page at root -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
 
 </web-app>
+

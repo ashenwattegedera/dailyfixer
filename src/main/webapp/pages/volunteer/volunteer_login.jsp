@@ -13,9 +13,9 @@
     <nav class="navbar">
         <div class="logo">Daily Fixer / Volunteer</div>
         <ul class="nav-links">
-            <li><a href="../index.jsp">Home</a></li>
-            <li><a href="../index.jsp#about">About</a></li>
-            <li><a href="../index.jsp#services">Services</a></li>
+            <li><a href="../../index.jsp">Home</a></li>
+            <li><a href="../../index.jsp#about">About</a></li>
+            <li><a href="../../index.jsp#services">Services</a></li>
             <li><a href="../shared/login.jsp">Log in</a></li>
         </ul>
     </nav>
