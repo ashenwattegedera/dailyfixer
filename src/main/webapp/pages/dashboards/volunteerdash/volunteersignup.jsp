@@ -9,7 +9,7 @@
 <html>
 <head>
   <title>DailyFixer - Repair Guide Volunteer</title>
-  <link rel="stylesheet" href="../../assets/css/guide.css">
+  <link rel="stylesheet" href="../../../assets/css/guide.css">
 </head>
 <body>
 <header>
@@ -17,10 +17,10 @@
   <nav class="navbar">
     <div class="logo">Daily Fixer</div>
     <ul class="nav-links">
-      <li><a href="../../index.jsp">Home</a></li>
-      <li><a href="../../index.jsp#about">About</a></li>
-      <li><a href="../../index.jsp#services">Services</a></li>
-      <li><a href="../shared/login.jsp">Log in</a></li>
+      <li><a href="../../../index.jsp">Home</a></li>
+      <li><a href="../../../index.jsp#about">About</a></li>
+      <li><a href="../../../index.jsp#services">Services</a></li>
+      <li><a href="../../shared/login.jsp">Log in</a></li>
     </ul>
   </nav>
 </header>
@@ -56,7 +56,7 @@
 
         <button type="submit" class="login-btn">Register</button>
 
-        <p class="note">Already registered? <a href="volunteerlogin.jsp">Log in here</a></p>
+        <p class="note">Already registered? <a href="#">Log in here</a></p>
 
       </form>
     </div>
