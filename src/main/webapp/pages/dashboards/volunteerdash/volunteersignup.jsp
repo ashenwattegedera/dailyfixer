@@ -56,7 +56,7 @@
 
         <button type="submit" class="login-btn">Register</button>
 
-        <p class="note">Already registered? <a href="#">Log in here</a></p>
+        <p class="note">Already registered? <a href="../../shared/login.jsp">Log in here</a></p>
 
       </form>
     </div>
