@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Fixer</title>
     <!-- Link to external stylesheet -->
-    <link rel="stylesheet" href="diagnostic.css">
+    <link rel="stylesheet" href="../../assets/css/diagnostic.css">
 </head>
 <body>
 <header>
