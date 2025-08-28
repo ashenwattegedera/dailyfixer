@@ -4,6 +4,7 @@
     <option name="state">
       <map>
         <entry key="file://$PROJECT_DIR$/src/main/webapp/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/pages/dashboards/driverdash/driverdashmain.jsp" value="file://$PROJECT_DIR$/src/main/webapp/pages/dashboards/driverdash" />
         <entry key="file://$PROJECT_DIR$/src/main/webapp/pages/findtechnician/findtechmain.jsp" value="file://$PROJECT_DIR$/src/main/webapp/pages/findtechnician" />
         <entry key="file://$PROJECT_DIR$/src/main/webapp/pages/shared/login.jsp" value="file://$PROJECT_DIR$/src/main/webapp/pages/shared" />
       </map>
