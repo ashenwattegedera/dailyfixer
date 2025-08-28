@@ -21,7 +21,7 @@
     <div class="subnav">
         <a href="../DiagnosticTool/diagnostic.jsp" >Diagnose Now</a>
         <a href="#" class="active">Find a Technician</a>
-        <a href="#">View Repair Guides</a>
+        <a href="../guide_view/guidehome.jsp">View Repair Guides</a>
         <a href="../store/store.jsp">Stores</a>
     </div>
 </header>

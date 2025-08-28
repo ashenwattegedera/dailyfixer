@@ -19,8 +19,8 @@
 
     <!-- Sub-nav -->
     <div class="sub-nav">
-        <a href="diagnose.jsp">Diagnose Now</a>
-        <a href="technicians.jsp">Find a Technician</a>
+        <a href="../DiagnosticTool/diagnostic.jsp">Diagnose Now</a>
+        <a href="../findtechnician/findtechmain.jsp">Find a Technician</a>
         <a href="../guides/guidehome.jsp" class="active">View Repair Guides</a>
         <a href="../store/store.jsp">Stores</a>
     </div>
