@@ -22,7 +22,7 @@
 
     <!-- Rounded Subnav -->
     <div class="subnav">
-        <a href="#">Diagnose Now</a>
+        <a href="pages/DiagnosticTool/diagnostic.jsp">Diagnose Now</a>
         <a href="#">Find a Technician</a>
         <a href="pages/guide_view/guidehome.jsp">View Repair Guides</a>
         <a href="pages/store/store.jsp">Stores</a>
