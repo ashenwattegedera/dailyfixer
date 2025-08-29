@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>Delivery Driver Dashboard - Daily Fixer</title>
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="../../../assets/css/deliverdashmain.css">
 </head>
 <body>
 <header>
