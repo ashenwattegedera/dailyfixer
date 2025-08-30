@@ -27,7 +27,7 @@
         <div class="store-name">Delivery Driver</div>
         <ul>
             <li><a href="#" class="active">Dashboard</a></li>
-            <li><a href="#">Delivery Requests</a></li>
+            <li><a href="delivery_requests.jsp">Delivery Requests</a></li>
             <li><a href="#">Update Status</a></li>
             <li><a href="#">Set Rates</a></li>
             <li><a href="#">My Profile</a></li>
