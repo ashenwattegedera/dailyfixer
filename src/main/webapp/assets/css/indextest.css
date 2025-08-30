@@ -199,25 +199,38 @@ html {
 
 /* About Us */
 
+/* About Us */
+.about {
+    padding: 0 5%;   /* space on left & right */
+}
+
 .about h2 {
     font-family: 'Arial', sans-serif;
     font-size: 30px;
     font-weight: 700;
     color: #000000;
     margin-top: 3rem;
-
+    max-width: 1200px;    /* match content width */
+    margin-left: auto;
+    margin-right: auto;   /* center it same as content */
+    padding: 0 5%;        /* keep same side padding */
 }
 
 .about-content {
     display: flex;
-    margin-top: 1rem;
     flex-wrap: wrap;
     gap: 2rem;
+    margin-top: 1rem;
+
+    max-width: 1200px;  /* keeps it from spreading too wide */
+    margin-left: auto;
+    margin-right: auto; /* centers the content */
 }
 
 .about-text {
     flex: 1;
     min-width: 250px;
+
 }
 
 .about-images {
@@ -233,22 +246,24 @@ html {
     border-radius: 10px;
 }
 
+
 /*sevices*/
 .services h2 {
     font-family: 'Arial', sans-serif;
     font-size: 30px;
     font-weight: 700;
     color: #000000;
-    margin-top: 3px;
+    margin-top: 5px;
     margin-bottom: 2rem;
 }
 
 .services {
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     align-items: flex-start;
-    padding: 40px;
+    padding: 20px;
     flex-wrap: wrap;
+    gap: 10rem;
 }
 
 .services-img img {
@@ -286,7 +301,6 @@ html {
 .cta {
     text-align: center;
     padding: 40px;
-    background: #b9ccff;
 }
 
 .cta h2 {
@@ -316,3 +330,69 @@ html {
     text-decoration: none; /* Prevent underline */
     text-align: center;
 }
+
+.footer {
+    background: #001244;
+    color: #ffffff;
+    padding: 40px 20px 20px;
+    margin-top: 40px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo h2 {
+    color: #ffffff;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 8px 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #8194FF;
+}
+
+.footer-contact p {
+    margin: 6px 0;
+}
+
+.socials a img {
+    width: 24px;
+    margin-right: 10px;
+    filter: brightness(0) invert(1); /* make icons white */
+    transition: transform 0.2s;
+    margin-top: 5px;
+}
+
+.socials a img:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+    padding-top: 15px;
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+
