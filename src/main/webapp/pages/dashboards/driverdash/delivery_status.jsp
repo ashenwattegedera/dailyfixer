@@ -23,8 +23,8 @@
             <li><a href="driverdashmain.jsp">Dashboard</a></li>
             <li><a href="delivery_requests.jsp">Delivery Requests</a></li>
             <li><a href="#"  class="active">Update Status</a></li>
-            <li><a href="#">Rates</a></li>
-            <li><a href="#">My Profile</a></li>
+            <li><a href="delivery_rates.jsp">Rates</a></li>
+            <li><a href="delivery_profile.jsp">My Profile</a></li>
         </ul>
     </nav>
 </header>

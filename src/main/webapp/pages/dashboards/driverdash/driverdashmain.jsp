@@ -28,9 +28,9 @@
         <ul>
             <li><a href="#" class="active">Dashboard</a></li>
             <li><a href="delivery_requests.jsp">Delivery Requests</a></li>
-            <li><a href="#">Update Status</a></li>
-            <li><a href="#">Set Rates</a></li>
-            <li><a href="#">My Profile</a></li>
+            <li><a href="delivery_status.jsp">Update Status</a></li>
+            <li><a href="delivery_rates.jsp">Set Rates</a></li>
+            <li><a href="delivery_profile.jsp">My Profile</a></li>
         </ul>
     </nav>
 </header>
