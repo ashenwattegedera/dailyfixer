@@ -32,12 +32,21 @@
     <section class="hero">
         <div class="hero-content">
             <h1>Explore a World of Repair</h1>
+
             <p>Select a category to explore step-by-step guides</p>
 
             <!-- Search Box -->
             <div class="search-box">
                 <input type="text" placeholder="Search for guides">
-                <button type="button">Search</button>
+               <!--<button type="button">Search</button>-->
+
+                <button>
+                    <img src="../../assets/images/pictures/search.png" alt="Search" width="20" height="20">
+                </button>
+
+                <!--<button>
+                    <img src="../../assets/images/pictures/search.png" alt="Search">
+                </button>-->
             </div>
         </div>
     </section>
@@ -70,15 +79,15 @@
         <h2>Home Appliances</h2>
         <div class="guide-cards">
             <a href="#" class="card">
-                <img src="../assets/images/washing_machine.jpg" alt="Washing Machine">
+                <img src="../../assets/images/pictures/washing_machine.jpg" alt="Washing Machine">
                 <p><strong>Fixing a Washing Machine Leak</strong><br>Step-by-step to stop water leakage.</p>
             </a>
             <a href="#" class="card">
-                <img src="../assets/images/fridge.jpg" alt="Fridge">
+                <img src="../../assets/images/pictures/fridge.jpg" alt="Fridge">
                 <p><strong>Refrigerator Not Cooling</strong><br>Simple checks to restore cooling.</p>
             </a>
             <a href="#" class="card">
-                <img src="../assets/images/microwave.jpg" alt="Microwave">
+                <img src="../../assets/images/pictures/microwave.jpg" alt="Microwave">
                 <p><strong>Microwave Not Heating</strong><br>Easy troubleshooting guide.</p>
             </a>
         </div>
@@ -89,15 +98,15 @@
         <h2>Vehicles</h2>
         <div class="guide-cards">
             <a href="#" class="card">
-                <img src="../assets/images/car_engine.jpg" alt="Car Engine">
+                <img src="../../assets/images/pictures/car_engine.jpeg" alt="Car Engine">
                 <p><strong>Basic Engine Maintenance</strong><br>Learn essential engine checks.</p>
             </a>
             <a href="#" class="card">
-                <img src="../assets/images/bike_tire.jpg" alt="Bike Tire">
+                <img src="../../assets/images/pictures/bike_tire.jpg" alt="Bike Tire">
                 <p><strong>Replace a Bike Tire</strong><br>Step-by-step tire replacement guide.</p>
             </a>
             <a href="#" class="card">
-                <img src="../assets/images/car_battery.jpg" alt="Car Battery">
+                <img src="../../assets/images/pictures/car_battery.jpg" alt="Car Battery">
                 <p><strong>Jumpstart a Car Battery</strong><br>Safe method to jumpstart your car.</p>
             </a>
         </div>

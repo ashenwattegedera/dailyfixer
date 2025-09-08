@@ -125,16 +125,7 @@ header {
     outline: none;
 }
 
-.hero .search-box button {
-    padding: 12px 20px;
-    background-color: #fff;
-    color: #7c8cff;
-    font-weight: bold;
-    border: none;
-    border-radius: 0 25px 25px 0;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
+
 
 .hero .search-box button:hover {
     background-color: #e6eaff;
@@ -339,4 +330,9 @@ header {
     .login-card {
         padding: 30px 20px;
     }
+    .search-box button img {
+        width: 16px !important;
+        height: 16px !important;
+    }
+
 }
