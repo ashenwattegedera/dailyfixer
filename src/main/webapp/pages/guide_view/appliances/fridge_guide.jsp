@@ -59,7 +59,7 @@
             <li>Keep the fridge door closed as much as possible.</li>
         </ul>
 
-        <a href="guidehome.jsp" class="back-btn">Back to Guides</a>
+        <a href="../guidehome.jsp" class="back-btn">Back to Guides</a>
     </section>
 </div>
 </body>

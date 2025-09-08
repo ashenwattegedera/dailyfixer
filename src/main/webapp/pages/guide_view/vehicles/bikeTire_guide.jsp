@@ -49,7 +49,7 @@
             <li>Check tire direction markings.</li>
             <li>Ensure tube is not pinched when mounting the tire.</li>
         </ul>
-        <a href="guidehome.jsp" class="back-btn">Back to Guides</a>
+        <a href="../guidehome.jsp" class="back-btn">Back to Guides</a>
     </section>
 </div>
 </body>

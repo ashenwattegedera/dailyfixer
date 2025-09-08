@@ -59,7 +59,7 @@
             <li>If the car doesn’t start after a few tries, the battery may need replacement.</li>
         </ul>
 
-        <a href="guidehome.jsp" class="back-btn">Back to Guides</a>
+        <a href="../guidehome.jsp" class="back-btn">Back to Guides</a>
     </section>
 </div>
 </body>

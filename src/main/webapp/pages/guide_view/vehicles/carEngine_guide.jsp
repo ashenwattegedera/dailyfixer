@@ -49,7 +49,7 @@
             <li>Follow manufacturer’s service schedule.</li>
             <li>Keep a maintenance log for your vehicle.</li>
         </ul>
-        <a href="guidehome.jsp" class="back-btn">Back to Guides</a>
+        <a href="../guidehome.jsp" class="back-btn">Back to Guides</a>
     </section>
 </div>
 </body>
