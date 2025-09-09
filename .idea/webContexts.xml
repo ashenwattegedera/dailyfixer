@@ -6,6 +6,7 @@
         <entry key="file://$PROJECT_DIR$/src/main/webapp/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
         <entry key="file://$PROJECT_DIR$/src/main/webapp/pages/dashboards/driverdash/delivery_status.jsp" value="file://$PROJECT_DIR$/src/main/webapp/pages/dashboards/driverdash" />
         <entry key="file://$PROJECT_DIR$/src/main/webapp/pages/dashboards/driverdash/driverdashmain.jsp" value="file://$PROJECT_DIR$/src/main/webapp/pages/dashboards/driverdash" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/pages/dashboards/storeowner/store_pick_vehicles.jsp" value="file://$PROJECT_DIR$/src/main/webapp/pages/dashboards/storeowner" />
         <entry key="file://$PROJECT_DIR$/src/main/webapp/pages/dashboards/storeowner/store_view_order.jsp" value="file://$PROJECT_DIR$/src/main/webapp/pages/dashboards/storeowner" />
         <entry key="file://$PROJECT_DIR$/src/main/webapp/pages/findtechnician/findtechmain.jsp" value="file://$PROJECT_DIR$/src/main/webapp/pages/findtechnician" />
         <entry key="file://$PROJECT_DIR$/src/main/webapp/pages/shared/login.jsp" value="file://$PROJECT_DIR$/src/main/webapp/pages/shared" />

@@ -123,7 +123,7 @@
 
     function goToDeliveryPage() {
         // Replace 'find_delivery.html' with the actual page you want
-        window.location.href = "find_delivery.html";
+        window.location.href = "store_delivery.jsp";
     }
 </script>
 
