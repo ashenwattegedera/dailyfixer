@@ -100,7 +100,7 @@
 
     <section class="cta">
         <h2>Not sure where to start?</h2>
-        <p>Let’s get your problems fixed, fast and easy</p>
+        <p>Let's get your problems fixed, fast and easy</p>
         <a href="pages/shared/usersignup.jsp" class="cta-btn">Get Started</a>
     </section>
 
