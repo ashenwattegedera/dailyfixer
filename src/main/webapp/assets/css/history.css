@@ -1,0 +1,241 @@
+/* ===================== Base Styles ===================== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #f0f4ff);
+    color: #222;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* ===================== Navbar & Subnav ===================== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7c8cff;
+    padding: 10px 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links a.active {
+    text-decoration: underline;
+}
+
+.sub-nav {
+    background-color: #cfe0ff;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 12px 20px;
+    border-radius: 50px;
+    margin-top: 5px;
+    border: 1px solid #a6c0ff;
+}
+
+.sub-nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.sub-nav a.active {
+    color: #274b9f;
+    font-weight: 700;
+}
+
+/* ===================== Page Container ===================== */
+.container {
+    max-width: 1200px;
+    margin: 120px auto 60px;
+    padding: 0 1.5rem;
+}
+
+/* ===================== Page headings and controls ===================== */
+.page-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 18px;
+}
+
+.page-head h2 {
+    margin: 0;
+    font-size: 1.6rem;
+    color: #062b5b;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.input, select {
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid #dbe6ff;
+    background: #fff;
+}
+
+.search {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+/* ===================== Card layout (order history view) ===================== */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+    margin-top: 18px;
+}
+
+.history-card {
+    background: #fff;
+    padding: 14px;
+    border-radius: 12px;
+    box-shadow: 0 10px 24px rgba(18,34,86,0.06);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.small {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* ===================== Status chips ===================== */
+.status {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+.status.pending { background: #fff7e6; color: #8a5e00; border: 1px solid #ffe7b2; }
+.status.in-progress, .status.inprogress { background: #e8f1ff; color: #274b9f; border: 1px solid #cfe0ff; }
+.status.completed { background: #e8fff0; color: #086a3a; border: 1px solid #bff0d1; }
+.status.cancelled { background: #fff1f0; color: #8a1f2a; border: 1px solid #f5c2c7; }
+
+/* ===================== Buttons ===================== */
+.btn, .view-btn {
+    display: inline-block;
+    background: #7c8cff;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.btn:hover, .view-btn:hover { transform: translateY(-2px); }
+.btn.ghost { background: transparent; color: #274b9f; border: 1px solid #dbe6ff; }
+
+/* ===================== Technician Requests Table ===================== */
+.request-table {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+.request-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 24px rgba(18,34,86,0.06);
+}
+
+.request-table th, .request-table td {
+    padding: 12px 14px;
+    text-align: left;
+    border-bottom: 1px solid #f2f6ff;
+    font-size: 0.95rem;
+}
+
+.request-table th { background: #f7faff; color: #0b1a3a; font-weight: 700; }
+.request-table td .status { font-size: 0.85rem; }
+
+/* ===================== Footer ===================== */
+footer {
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px 0;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+/* ===================== Responsive ===================== */
+@media (max-width: 780px) {
+    .page-head {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .controls {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .request-table table,
+    .request-table th,
+    .request-table td {
+        font-size: 0.85rem;
+    }
+
+    .sub-nav {
+        flex-direction: column;
+        gap: 12px;
+        padding: 8px 12px;
+    }
+}
